@@ -82,8 +82,9 @@
  /* --------- Section 2 --------- */
 
  .flex-item-2 {
+     display: flex;
     position: relative;
-    display: inline-flex;
+    justify-content: space-around;
     padding-left: 20%;
     padding-right: 20%;
     padding-top: 5%;
@@ -109,6 +110,8 @@
  .flex-item-3 {
     position: relative;
     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
     flex-direction: column;
     padding-left: 20%;
     padding-right: 20%;
@@ -120,7 +123,6 @@
 }
  .flex-item-3 img {
     display: inline;
-    position: absolute;
     height: 15em;
     width: 20em;
     max-width: fit-content;
