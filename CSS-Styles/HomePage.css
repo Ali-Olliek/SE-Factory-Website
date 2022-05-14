@@ -262,4 +262,15 @@
     color: black;
     background-color: grey;
     text-align: center;
+    height: 10em;
+    font-size: 4em;
+}
+
+.flex-item-10 button {
+    background-color: black ;
+    width: 15em;
+    height: 5em;
+    color: white;
+    font-size: 30px;
+    border-radius: 20px;
 }
