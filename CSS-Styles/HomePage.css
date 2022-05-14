@@ -232,3 +232,14 @@
     text-align: center;
     font-size: 4em;
 }
+
+/* ---------Section 8-------- */
+
+.flex-item-8 img {
+    width: 100%;
+}
+
+.flex-item-8 h2 {
+    text-align: center;
+    font-size: 4em;
+}
