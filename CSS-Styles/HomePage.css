@@ -1,4 +1,5 @@
 * {
+    -webkit-text-size-adjust: 100%;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -242,4 +243,23 @@
 .flex-item-8 h2 {
     text-align: center;
     font-size: 4em;
+}
+
+/* ----------Section 9-------------- */
+
+.flex-item-9 img {
+    width: 100%;
+}
+
+.flex-item-9 h2 {
+    text-align: center;
+    font-size: 4em;
+}
+
+/* ----------Section 10-------------- */
+
+.flex-item-10 {
+    color: black;
+    background-color: grey;
+    text-align: center;
 }
