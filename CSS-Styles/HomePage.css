@@ -80,3 +80,11 @@
     padding: 12px;
 }
  /* --------- Section 2 --------- */
+
+ .flex-item-2 {
+    position: relative;
+    display: inline-flex;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+ }
