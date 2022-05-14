@@ -103,3 +103,30 @@
      padding: 15px;
      width:10em;
  }
+
+ /* ------Third Section----- */
+
+ .flex-item-3 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+ }
+.flex-item-3 span {
+    display: inline-block;
+}
+ .flex-item-3 img {
+    display: inline;
+    position: absolute;
+    height: 15em;
+    max-width: 20em;
+ }
+
+ .text-3 {
+    
+    width: 12em;
+    height:max-content;
+    
+}
