@@ -274,3 +274,28 @@
     font-size: 30px;
     border-radius: 20px;
 }
+
+/* ----------Footer-------------- */
+
+.footer {
+    color: white;
+    background-color: black;
+    position: relative;
+    height: 500px;
+}
+
+.footer img {
+    fill: transparent;
+    width: 20px;
+    height: 20px;
+}
+
+.icon-list {
+    position: absolute;
+    text-align: right;
+    padding-bottom: 20px;
+}
+
+.footer .h3 .a {
+    color:#18ea19;
+}
