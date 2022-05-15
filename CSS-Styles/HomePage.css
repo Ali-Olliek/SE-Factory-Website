@@ -135,6 +135,11 @@ header button {
         width: 50%;
         padding: 10px;
 }
+
+.text-4 h2 {
+    font-size: 3rem;
+    width: 600px;
+}
 /* -----------Section 4----------- */
 
 .section-4 {
