@@ -20,7 +20,7 @@ section {
 
 .bold {
     font-weight: bold;
-    font-size: 4em;
+    font-size: 2em;
 }
 
 .normal-weight{
@@ -45,6 +45,15 @@ header {
     color: white;
 }
 
+.header-text {
+    position: absolute;
+    display:block;
+    left: 5rem;
+    bottom: 2rem;
+    max-width: min-content;
+    font-size: 1.7rem;
+}
+
 .icon {
     width: auto;
     max-width: 100%;
@@ -55,10 +64,10 @@ header {
 }
 
 header ul {
-    display: inline-block;
+    display: inline-flexbox;
     position: absolute;
-    right: 10px;
-    top: 20px;
+    top: 10px;
+    left: 35%;
     list-style: none;
 }
 
@@ -75,29 +84,6 @@ header button {
     padding: 1rem
 }
 
-header button:last-child {
-    position: absolute;
-    left: 5rem;
-    bottom: 1rem;
-}
-
-header p,h1 {
-    position: absolute;
-    display:block;
-    bottom: 5rem;
-    left: 5rem;
-    width: 20rem;
-    padding-block: 5px;
-}
-
-header h1 {
-    position: absolute;
-    bottom: 10rem;
-}
-
-header p {
-    width: 30rem;
-}
  /* --------- Section 1 --------- */
 .section-1 div {
     width: 10rem;
