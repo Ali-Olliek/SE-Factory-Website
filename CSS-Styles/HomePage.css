@@ -84,10 +84,20 @@ header h1 {
 header p {
     width: 30rem;
 }
- /* --------- Section 2 --------- */
-.section-1 {
+ /* --------- Section 1 --------- */
+.section-1 div {
+    width: 10rem;
+    margin-inline: auto;
     text-align: center;
+    padding-bottom: 25px;
 }
+
+.bold-green {
+    color: #18ea19;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
  /* ------Section 3----- */
 
  .flex-item-3 {
