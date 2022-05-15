@@ -25,7 +25,7 @@ section {
 
 .normal-weight{
     font-weight: normal;
-    font-size: 2rem;
+    font-size: 2em;
 }
 
 .green-link {
@@ -101,12 +101,12 @@ header button {
     text-align: center;
 }
  /* ------Section 2----- */
-
 .section-2 img {
     max-width: 100%;
 }
 .text-3 {
-    font-size: 2rem;
+    font-size:3rem ;
+    max-width: 45rem;
 }
 .text-3 p{
     padding-top: 20px;
@@ -115,9 +115,6 @@ header button {
 .section-3 {
     background-color: #18ea19;
 }
-.section-3 h2 {
-    text-align: center;
-}
 
 .container-1 {
     display: flex;
@@ -125,8 +122,13 @@ header button {
     max-width: 100%;
     justify-content: space-around;
 }
-
+.text-4 {
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+}
 /* -----------Section 4----------- */
+
 .section-4 {
     display: flex;
     flex-wrap: wrap;
@@ -136,23 +138,11 @@ header button {
     max-width: 100%;
 }
 
-.text-4 {
-    padding-block: 20px;
-    width: 25rem;
-}
-
-.text-4 p {
-    padding-block: 20px;
+.text-5 {
+    text-align: start;
+    font-size: 2.5rem;
 }
 /* -------Section 5-------- */
-.text-5 {
-    text-align: center;
-    width: 100rem;
-}
-.text-5 h2 {
-    display: inline;
-    font-size: 1.5rem;
-}
 .section-5 {
     display: flex;
     flex-wrap: wrap;
@@ -161,6 +151,12 @@ header button {
 .section-5 img {
     max-width: 100%;
 }
+
+.text-6 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 1.4rem;
+}
 /* --------Section 6--------- */
 .section-6 {
     position: relative;
@@ -168,7 +164,7 @@ header button {
 }
 .section-6 h2 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 4rem;
     padding-bottom: 20px;
 }
 .section-6 ul {
@@ -192,9 +188,15 @@ header button {
 .section-7 img {
     max-width: 100%;
 }
+
+.section-7 h2 {
+    font-size: 4rem;
+    padding-bottom: 20px;
+}
 /* ----------Section 8-------------- */
 .section-8 {
     text-align: center;
+    font-size: 4rem;
 }
 
 .section-8 ul {
@@ -208,10 +210,12 @@ header button {
 .section-8 li {
     flex-wrap: wrap;
 }
+
 /* ----------Section 10-------------- */
 .section-9 {
     background-color: lightgrey;
     text-align: center;
+    font-size: 2rem;
 }
 
 .section-9 > button {
