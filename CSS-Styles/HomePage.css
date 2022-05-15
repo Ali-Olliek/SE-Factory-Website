@@ -20,7 +20,7 @@ section {
 
 .bold {
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 4em;
 }
 
 .normal-weight{
@@ -235,26 +235,34 @@ header p {
 /* ----------Footer-------------- */
 
 footer {
+    padding: 3rem;
     text-align: center;
     position: relative;
     background-color: black;
     color: white;
 }
+
 footer h3 {
+    font-weight: normal;
     display: block;
 }
 footer .green-link {
     position: absolute;
     left: 40px;
 }
+
+footer ul {
+    position: relative;
+    right: 20px;
+}
+
 footer li {
     display: inline-block;
+    
 }
 
 footer img {
     background-color: white;
-    width: 50px;
-    height: 50px;
-    right: 20px;
-    bottom:20px
+    width: 3rem;
+    height: 3rem;
 }
