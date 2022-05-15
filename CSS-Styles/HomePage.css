@@ -136,7 +136,7 @@ header p {
     justify-content: space-around;
 }
 
-/* -----------Section 5----------- */
+/* -----------Section 4----------- */
 .section-5 {
     display: flex;
     flex-wrap: wrap;
@@ -154,7 +154,7 @@ header p {
 .text-4 p {
     padding-block: 20px;
 }
-/* -------Section 6-------- */
+/* -------Section 5-------- */
 .text-5 {
     text-align: center;
     width: 100rem;
@@ -163,19 +163,30 @@ header p {
     display: inline;
     font-size: 1.5rem;
 }
-/* --------Section 7--------- */
-
-.flex-item-7 {
-    display: flex;
-    flex-direction: column;
+/* --------Section 6--------- */
+.section-6 {
+    position: relative;
+    background-color: lightgrey;
+}
+.section-6 h2 {
     text-align: center;
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+.section-6 ul {
+    text-align: center;
+    display: block;
 }
 
-.section-7 h2 {
-    text-align: center;
-    font-size: 4em;
+.section-6 li {
+    display: inline-flex;
+    max-width: 100%;
+    padding-block: 20px;
 }
 
+.section-6 img {
+    width: 18rem;
+}
 /* ---------Section 8-------- */
 
 .flex-item-8 img {
