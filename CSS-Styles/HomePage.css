@@ -142,6 +142,18 @@ header p {
     flex-wrap: wrap;
 }
 
+.section-5 img {
+    max-width: 100%;
+}
+
+.text-5 {
+    padding-block: 20px;
+    width: 25rem;
+}
+
+.text-5 p {
+    padding-block: 20px;
+}
 /* -------Section 6-------- */
 
 .flex-item-6 {
