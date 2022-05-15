@@ -235,6 +235,7 @@ header p {
 /* ----------Footer-------------- */
 
 footer {
+    position: relative;
     padding: 3rem;
     text-align: center;
     position: relative;
@@ -252,8 +253,9 @@ footer .green-link {
 }
 
 footer ul {
-    position: relative;
+    position: absolute;
     right: 20px;
+    bottom:20px;
 }
 
 footer li {
