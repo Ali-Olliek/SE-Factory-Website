@@ -33,20 +33,31 @@ header {
     top: 10px;
 }
 
+header ul {
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding:5px;
+}
+
 .flex-item-1 p {
     color: white;
     position: absolute;
     left: 5rem;
     bottom: 6em;
 }
-.header button {
+header button {
     border-color: #18ea19;
-    width: 9em;
-    height: 3em;
     background-color: #18ea19;
     color: white;
     border-radius: 5px;
-    padding: 12px;
+    padding: 1rem
 }
  /* --------- Section 2 --------- */
 
