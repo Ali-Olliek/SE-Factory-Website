@@ -46,18 +46,30 @@ header li {
     padding:5px;
 }
 
-.flex-item-1 p {
-    color: white;
-    position: absolute;
-    left: 5rem;
-    bottom: 6em;
-}
 header button {
     border-color: #18ea19;
     background-color: #18ea19;
     color: white;
     border-radius: 5px;
     padding: 1rem
+}
+
+header p,h1 {
+    position: absolute;
+    display:block;
+    bottom: 5rem;
+    left: 5rem;
+    width: 20rem;
+    padding-block: 5px;
+}
+
+header h1 {
+    position: absolute;
+    bottom: 10rem;
+}
+
+header p {
+    width: 30rem;
 }
  /* --------- Section 2 --------- */
 
