@@ -13,10 +13,10 @@
     width: 100%;
 }
 
-.flex-item-1 {
+header {
     position: relative;
     background: url("/Assets/Pictures/IMG_9780.JPG");
-    background-size: contain;
+    background-size:110%;
     background-repeat: no-repeat;
     width: 100%;
     height: 0;
@@ -24,23 +24,7 @@
     color: white;
 }
 
-.flex-item-1 span {
-    padding: 5px;
-}
-
-.button-1 {
-    border-color: #18ea19;
-    width: 9em;
-    height: 3em;
-    background-color: #18ea19;
-    color: white;
-    background:#18ea19;
-    position: relative;
-    right: 0px;
-    top: 10px;
-    border-radius: 5px;
-}
-.flex-item-1 img {
+.icon {
     width: auto;
     max-width: 100%;
     max-height: 80px;
@@ -49,34 +33,18 @@
     top: 10px;
 }
 
-.nav-bar {
-    display: inline-block;
-    position: absolute;
-    top: 1em;
-    right: 6em;
-}
-.flex-item-1 h1 {
-    position: absolute;
-    font-weight: normal;
-    color: white;
-    left: 2.5em;
-    bottom: 8em;
-}
 .flex-item-1 p {
     color: white;
     position: absolute;
     left: 5rem;
     bottom: 6em;
 }
-.button-2 {
+.header button {
     border-color: #18ea19;
     width: 9em;
     height: 3em;
     background-color: #18ea19;
     color: white;
-    position: absolute;
-    bottom: 3em;
-    left: 6em;
     border-radius: 5px;
     padding: 12px;
 }
