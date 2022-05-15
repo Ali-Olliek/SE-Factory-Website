@@ -58,8 +58,8 @@ header {
     left: 5rem;
     bottom: 2rem;
     max-width: 60rem;
-    font-size: 2.5rem;
-    color: green;
+    font-size: 3vw;
+    color: white;
 }
 
 .icon {
@@ -75,7 +75,7 @@ header ul {
     display: inline-flexbox;
     position: absolute;
     top: 10px;
-    left: 35%;
+    right:20px;
     list-style: none;
 }
 
@@ -142,19 +142,17 @@ header button {
     width: 600px;
 }
 /* -----------Section 4----------- */
-
-.section-4 {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .section-4 img {
     max-width: 100%;
 }
 
 .text-5 {
-    text-align: start;
-    font-size: 2.5rem;
+    font-size: 2rem;
+    max-width: 45rem;
+}
+
+.text-5 p {
+    padding-top: 20px;
 }
 /* -------Section 5-------- */
 .section-5 {
@@ -277,18 +275,24 @@ footer img {
     height: 3rem;
 }
 
-@media screen and (min-width: 400px) {
-    .section-1, .section-2 {
+@media screen and (min-width: 1000px) {
+    .section-1, .section-2, .section-4 {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
-    .section-4 {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
+
     .text-3 {
         font-size: 2rem;
+    }
+
+    .header-text {
+        color: white;
+        font-size: 2vw;
+    }
+
+    .section-6 ul, .section-8 ul {
+        display: flex;
+        flex-direction: row ;
     }
 }
