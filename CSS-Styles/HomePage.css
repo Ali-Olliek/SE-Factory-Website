@@ -219,24 +219,19 @@ header p {
     flex-wrap: wrap;
 }
 /* ----------Section 10-------------- */
-
-.flex-item-10 {
-    color: black;
-    background-color: grey;
+.section-9 {
+    background-color: lightgrey;
     text-align: center;
-    height: 10em;
-    font-size: 4em;
 }
 
-.flex-item-10 button {
-    background-color: black ;
-    width: 15em;
-    height: 5em;
+.section-9 > button {
+    background: black;
     color: white;
-    font-size: 30px;
-    border-radius: 20px;
+    padding-inline: 2rem;
+    padding-block: 1rem;
+    margin-top: 20px;
+    border-radius: 10%;
 }
-
 /* ----------Footer-------------- */
 
 .footer {
