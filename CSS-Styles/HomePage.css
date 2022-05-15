@@ -187,17 +187,13 @@ header p {
 .section-6 img {
     width: 18rem;
 }
-/* ---------Section 8-------- */
-
-.flex-item-8 img {
-    width: 100%;
-}
-
-.flex-item-8 h2 {
+/* ---------Section 7-------- */
+.section-7 {
     text-align: center;
-    font-size: 4em;
 }
-
+.section-7 img {
+    max-width: 100%;
+}
 /* ----------Section 9-------------- */
 
 .flex-item-9 img {
